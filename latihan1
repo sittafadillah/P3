@@ -1,0 +1,15 @@
+int main () {
+    int suhu;
+
+    cout<<"suhu celcius :";
+    cin>>suhu;
+
+    if(suhu<=10){
+        cout<<"beku";
+    }else if(suhu>=11 &&  suhu<=90){
+        cout<<"cair";
+    }else{cout<<"uap";}
+
+    return 0;
+}
+
