@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main () {
+    int nilai;
+
+    cout<<"masukan bilangan :";
+    cin>>nilai;
+
+    if(nilai<=70){
+        cout<<"indeks C";
+    }else if(nilai>=70 && nilai<=85){
+        cout<<"indeks B";
+    }else{cout<<"indeks A";}
+
+    return 0;
+}
