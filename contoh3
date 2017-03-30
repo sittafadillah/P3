@@ -1,0 +1,67 @@
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+int main () {
+    int bulan;
+    string bul;
+
+    cout<<"masukan bulan : ";
+    cin>>bulan;
+
+    switch(bulan){
+        case 1:
+            bul = "Januari";
+            cout<<"Bulan ke - "<<bulan<<" adalah "<<bul<<endl;
+            break;
+        case 2:
+            bul = "Februari";
+            cout<<"Bulan ke - "<<bulan<<" adalah "<<bul<<endl;
+            break;
+        case 3:
+            bul = "Maret";
+            cout<<"Bulan ke - "<<bulan<<" adalah "<<bul<<endl;
+            break;
+        case 4:
+            bul = "April";
+            cout<<"Bulan ke - "<<bulan<<" adalah "<<bul<<endl;
+            break;
+        case 5:
+            bul = "Mei";
+            cout<<"Bulan ke - "<<bulan<<" adalah "<<bul<<endl;
+            break;
+        case 6:
+            bul = "Juni";
+            cout<<"Bulan ke - "<<bulan<<" adalah "<<bul<<endl;
+            break;
+        case 7:
+            bul = "Juli";
+            cout<<"Bulan ke - "<<bulan<<" adalah "<<bul<<endl;
+            break;
+        case 8:
+            bul = "Agustus";
+            cout<<"Bulan ke - "<<bulan<<" adalah "<<bul<<endl;
+            break;
+        case 9:
+            bul = "September";
+            cout<<"Bulan ke - "<<bulan<<" adalah "<<bul<<endl;
+            break;
+        case 10:
+            bul = "Oktober";
+            cout<<"Bulan ke - "<<bulan<<" adalah "<<bul<<endl;
+            break;
+        case 11:
+            bul = "November";
+            cout<<"Bulan ke - "<<bulan<<" adalah "<<bul<<endl;
+            break;
+        case 12:
+            bul = "Desember";
+            cout<<"Bulan ke - "<<bulan<<" adalah "<<bul<<endl;
+            break;
+
+        default : cout<<"Tidak ada"; //default sama kayak ELSE(if) kalo default(case)
+    }
+
+    return 0;
+
+}
